@@ -1,0 +1,32 @@
+# Variables de entorno: nunca se versionan (sí .env.example)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Node / Vite
+node_modules/
+dist/
+npm-debug.log*
+
+# Archivos subidos por usuarios
+backend/uploads/
+
+# Bases locales
+*.db
+*.sqlite3
+
+# Editores y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
